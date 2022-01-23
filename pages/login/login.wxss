@@ -1,0 +1,155 @@
+/* pages/login/login.wxss */.wrapper{
+    position:relative;
+    z-index: 90;
+    padding-bottom: 40rpx;
+  }
+  
+  .left-top-sign{
+    font-size: 120rpx;
+    color: #f8f8f8;
+    position:relative;
+    left: -16rpx;
+  }
+  
+  .welcome{
+    position:relative;
+    left: 50rpx;
+    top: -90rpx;
+    font-size: 46rpx;
+    color: #555;
+  }
+  
+  
+  .UCenter-bg {
+    background-image: url('https://7363-schoolgzgsxy-2g07k3mh30f9fcde-1305126347.tcb.qcloud.la/system/96411614765679_.pic.jpg?sign=8274bb978c7309d852fc3f042a185b84&t=1614861554');
+    background-size: cover;
+    height: 550rpx;
+    display: flex;
+    justify-content: center;
+    padding-top: 40rpx;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .input-content{
+    padding: 0 60rpx;
+  }
+  .input-item{
+/*
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 0 30rpx;
+    background:#f8f6fc;
+    height: 120rpx;
+    border-radius: 4px;
+    margin-bottom: 50rpx;
+
+*/
+  /*另一个*/
+  display: flex;
+  align-items: center;
+  padding: 25rpx 30rpx;
+  margin: 40rpx 3%;
+  background: #fff;
+  border-radius: 5px;
+  border: 2px solid #f4f4f4;
+  transition: all 0.25s ease-in-out;
+
+  }
+  
+  .input-item:last-child{
+    margin-bottom: 0;
+  }
+  .input-item .tit{
+    height: 50rpx;
+    width: 150rpx;
+    line-height: 30rpx;
+    font-size: 30rpx;
+    color: #606266;
+  }
+  .input-item input{
+    height: 60rpx;
+    font-size: 30rpx;
+    color: #303133;
+    width: 100%;
+  }
+  .confirm-btn{
+    width: 630rpx!important;
+    height: 76rpx;
+    line-height: 76rpx;
+    border-radius: 50rpx;
+    margin-top: 70rpx;
+    background: #1296db;
+    color: #fff;
+    font-size: 32rpx;
+    padding: 0;
+  }
+  .confirm-btn2:after{
+    border-radius: 100px;
+  }
+  
+  .forget-section{
+    font-size: 28rpx;
+    color: #4399fc;
+    text-align: center;
+    margin-top: 40rpx;
+  }
+  
+  .register-section{
+    position:absolute;
+    left: 0;
+    bottom: 50rpx;
+    width: 100%;
+    font-size: 28rpx;
+    color: #606266;
+    text-align: center;
+  
+  }
+  .register-section text{
+    color: #4399fc;
+    margin-left: 10rpx;
+  }
+  
+.wave {
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+  opacity: 0.725;
+  height: 260rpx;
+  width: 2250rpx;
+  animation: wave 10s linear infinite;
+}
+
+.wave-bg {
+  z-index: 1;
+  animation: wave-bg 10.25s linear infinite;
+}
+
+@keyframes wave {
+  from {
+    transform: translate3d(125rpx, 0, 0);
+  }
+
+  to {
+    transform: translate3d(1125rpx, 0, 0);
+  }
+}
+
+@keyframes wave-bg {
+  from {
+    transform: translate3d(375rpx, 0, 0);
+  }
+
+  to {
+    transform: translate3d(1375rpx, 0, 0);
+  }
+}
+  

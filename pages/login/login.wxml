@@ -1,0 +1,30 @@
+<scroll-view scroll-y class="scrollPage">
+<view class="container">
+    <image
+      src="https://7363-schoolgzgsxy-2g07k3mh30f9fcde-1305126347.tcb.qcloud.la/system/wave.gif?sign=878472d579816f574989043298c06812&t=1614861678"
+      mode="scaleToFill" class="gif-wave"></image>
+
+    <view class="wrapper">
+        <!--<view class="left-top-sign">登录/注册</view>-->
+       
+        <view class="welcome">客官，欢迎回来~</view>
+        <view class="input-content">
+            <view class="input-item">
+                <text class="tit">手机号码</text>
+                <input type="text" placeholder="" data-type="phone" id="phone" bindinput="handleInput" />
+            </view>
+            <view class="input-item">
+                <text class="tit">密码</text>
+                <input type="password" placeholder="" data-type="password" id="password" bindinput="handleInput" />
+            </view>
+        </view>
+
+        <button class="confirm-btn" bindtap="login">登录</button>
+        <!--<view class="forget-section">忘记密码?</view>-->
+    </view>
+    <!--<view class="register-section">
+        还没有账号?
+        <text>马上注册</text>
+    </view>-->
+</view>
+</scroll-view>
